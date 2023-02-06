@@ -28,6 +28,7 @@ ul.list > li{
 
 div::first-letter{
 color: red;
+font-size: 120%;
 }
 
 li>a:visited{
@@ -36,4 +37,18 @@ li>a:visited{
 
 li>a:hover{
     color: red;
+    background-color: yellow;
+}
+
+li:first-child::first-letter{
+    
+    size: 120%;
+    font-weight: bold;
+    background-color: aquamarine;
+
+}
+
+
+a[href*="https://bcit.ca"]{
+    background-color: yellow;
 }
