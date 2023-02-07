@@ -63,3 +63,13 @@ img>p{
 .below{
     clear: left;
 }
+
+
+.target {
+    width:auto50px;
+    height:50px;
+    background-color: forestgreen;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
