@@ -52,3 +52,14 @@ li:first-child::first-letter{
 a[href*="https://bcit.ca"]{
     background-color: yellow;
 }
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+img>p{
+    
+}
+.below{
+    clear: left;
+}
